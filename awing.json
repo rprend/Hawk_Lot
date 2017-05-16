@@ -1,0 +1,44 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "occupied": true,
+            "id": 1,
+            "owner": "admin@admin.org",
+            "renter": "-"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [116.1, -30.3],
+                    [122.1, -30.3],
+                    [122.1, -32.85],
+                    [116.1, -32.85],
+                    [116.1, -30.3]
+                ]
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "occupied": true,
+            "id": 2,
+            "owner": "-",
+            "renter": "-"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [37.5, -12.6],
+                    [52.8, -20.7],
+                    [52.8, -26.6],
+                    [37.5, -18.5],
+                    [37.5, -12.6]
+                ]
+            ]
+        }
+    }]
+}
